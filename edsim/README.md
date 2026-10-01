@@ -39,6 +39,10 @@ process library** — so every mechanism in the paper is visible and auditable i
 
 ## 2. Quick start
 
+> **New here?** Read **[`docs/PROJECT_GUIDE.pdf`](docs/PROJECT_GUIDE.pdf)** first — a 31-page
+> illustrated guide covering the paper, the methods, the code map, the results and viva prep.
+> Regenerate it after a fresh run with `python docs/make_guide.py`.
+
 ```bash
 cd edsim
 pip install -r requirements.txt
@@ -400,6 +404,7 @@ rather than staying silent.
 edsim/
 ├── README.md                  ← this file
 ├── requirements.txt
+├── docs/PROJECT_GUIDE.pdf     ← the illustrated guide (generated)
 ├── src/                       ← the library (14 modules, ~4000 lines)
 ├── scripts/                   ← 9 runnable experiments + the orchestrator
 ├── tests/test_model.py        ← 33 correctness checks

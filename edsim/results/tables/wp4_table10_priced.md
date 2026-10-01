@@ -10,4 +10,4 @@
 | S5 | (6, 7, 5) | 994 | 4.32 | 62.4 | 100.00 | 119,280 | 4,800 | 124,082 |
 | S6 | (7, 7, 5) | 1050 | 2.38 | 59.1 | 100.00 | 126,000 | 2,650 | 128,652 |
 
-<sub>produced by: scripts/run_05_staffing_cost.py &middot; command    : python scripts/run_05_staffing_cost.py --reps 100 --workers 14 &middot; timestamp  : 2026-08-28 21:50:38 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "alpha": 120.0, "beta": 0.5, "gamma": 50.0, "screen_reps": 8, "refine_reps": 25, "n_refine": 6, "lo": 2, "hi": 8}</sub>
+<sub>produced by: scripts/run_05_staffing_cost.py &middot; command    : python scripts/run_05_staffing_cost.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-09-24 10:42:57 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "alpha": 120.0, "beta": 0.5, "gamma": 50.0, "screen_reps": 8, "refine_reps": 25, "n_refine": 6, "lo": 2, "hi": 8}</sub>

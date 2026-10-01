@@ -1,6 +1,6 @@
 # produced by: scripts/run_01_validate_paper.py
 # command    : python scripts/run_01_validate_paper.py --reps 100 --seed 20250402 --workers 14
-# timestamp  : 2026-08-28 21:21:14
+# timestamp  : 2026-09-24 10:24:42
 # args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}
 # caption    : Equipment utilisation reproduced against the paper's Table 9
 "equipment","n_exams","paper_n_exams","mean_duration_min","paper_duration_min","total_duration_min","available_min","utilisation_pct","paper_utilisation_pct","mean_queue_delay_min"

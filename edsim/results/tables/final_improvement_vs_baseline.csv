@@ -1,6 +1,6 @@
 # produced by: scripts/run_08_final_comparison.py
-# command    : python scripts/run_08_final_comparison.py --reps 100 --workers 14
-# timestamp  : 2026-08-28 21:46:21
+# command    : python scripts/run_08_final_comparison.py --reps 100 --seed 20250402 --workers 14
+# timestamp  : 2026-09-24 10:46:21
 # args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}
 # caption    : Every policy's improvement over the Initial-First baseline, the paper's own reference point
 "policy","mean_wait_min","delta_vs_ifp_min","delta_vs_ifp_pct","holding_cost_vs_ifp_pct","meets_sla"

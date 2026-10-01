@@ -14,4 +14,4 @@
 | +12% | 0.974 | 163.02 | 127.24 | 143.95 | 127.15 | 133.56 | 58 |
 | +15% | 1.000 | 240.44 | 187.28 | 218.63 | 187.05 | 196.80 | 89 |
 
-<sub>produced by: scripts/run_07_sensitivity.py &middot; command    : python scripts/run_07_sensitivity.py --reps 100 --workers 14 &middot; timestamp  : 2026-08-29 20:56:28 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "arrival_span": 15.0, "arrival_step": 3.0, "skip_arrival": false, "skip_staffing": false, "skip_distribution": false}</sub>
+<sub>produced by: scripts/run_07_sensitivity.py &middot; command    : python scripts/run_07_sensitivity.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-09-24 10:44:57 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "arrival_span": 15.0, "arrival_step": 3.0, "skip_arrival": false, "skip_staffing": false, "skip_distribution": false}</sub>

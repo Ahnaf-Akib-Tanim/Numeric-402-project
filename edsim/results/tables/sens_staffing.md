@@ -10,4 +10,4 @@
 | S5 | (6, 7, 5) | 4.60 | 4.30 | 4.32 | 4.31 | 4.33 | 62.4 | 100.00 |
 | S6 | (7, 7, 5) | 2.40 | 2.34 | 2.38 | 2.38 | 2.37 | 59.1 | 100.00 |
 
-<sub>produced by: scripts/run_07_sensitivity.py &middot; command    : python scripts/run_07_sensitivity.py --reps 100 --workers 14 &middot; timestamp  : 2026-08-29 20:57:07 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "arrival_span": 15.0, "arrival_step": 3.0, "skip_arrival": false, "skip_staffing": false, "skip_distribution": false}</sub>
+<sub>produced by: scripts/run_07_sensitivity.py &middot; command    : python scripts/run_07_sensitivity.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-09-24 10:45:46 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "arrival_span": 15.0, "arrival_step": 3.0, "skip_arrival": false, "skip_staffing": false, "skip_distribution": false}</sub>

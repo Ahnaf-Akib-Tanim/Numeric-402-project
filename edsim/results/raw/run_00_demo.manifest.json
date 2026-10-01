@@ -1,23 +1,23 @@
 {
  "script": "run_00_demo",
  "description": "Interactive demonstration: event trace, live queue dashboard, and a single-week comparison of all five policies on one shared patient stream.",
- "command": "python scripts/run_00_demo.py --no-dashboard --trace-hours 0 --no-figures",
+ "command": "python scripts/run_00_demo.py --no-dashboard",
  "args": {
   "reps": 100,
   "seed": 20250402,
   "workers": 14,
   "quick": false,
-  "no_figures": true,
+  "no_figures": false,
   "policy": "SBP",
-  "trace_hours": 0.0,
+  "trace_hours": 3.0,
   "trace_limit": 120,
   "dash_days": 2.0,
   "speed": 0.0,
   "no_trace": false,
   "no_dashboard": true
  },
- "timestamp": "2026-08-29 21:04:56",
- "elapsed_seconds": 0.42,
+ "timestamp": "2026-09-24 10:24:24",
+ "elapsed_seconds": 2.18,
  "environment": {
   "python": "3.11.4",
   "platform": "Windows-10-10.0.26200-SP0",
@@ -35,6 +35,12 @@
    "name": "demo_single_week_comparison",
    "path": "results/tables/demo_single_week_comparison.csv",
    "caption": "Single-replication, identical-stream comparison of all five scheduling policies (demo run)"
+  },
+  {
+   "kind": "figure",
+   "name": "demo_week_trace",
+   "path": "results/figures/demo_week_trace.png",
+   "caption": "Queue lengths and physician occupancy over one simulated week under SBP"
   }
  ],
  "tables": {
@@ -83,7 +89,7 @@
      "88.8",
      "2295",
      "22",
-     "0.07"
+     "0.06"
     ],
     [
      "SBP",
@@ -98,7 +104,7 @@
      "88.8",
      "2297",
      "20",
-     "0.06"
+     "0.08"
     ],
     [
      "WSEPT",
@@ -113,7 +119,7 @@
      "88.8",
      "2297",
      "20",
-     "0.07"
+     "0.05"
     ],
     [
      "GCMU",
@@ -128,7 +134,7 @@
      "88.8",
      "2296",
      "21",
-     "0.07"
+     "0.08"
     ]
    ]
   }

@@ -9,4 +9,4 @@
 | (6,6,4) | 7.90 | 15.60 | 882 | 8.38 | 100.00 | 100.00 | 70.5 | 105,840 | 9,312 | 0 | 115,152 | yes |
 | (5,6,3) | 11.30 | 22.70 | 763 | 21.44 | 99.98 | 99.92 | 81.4 | 91,560 | 23,789 | 76 | 115,425 | yes |
 
-<sub>produced by: scripts/run_05_staffing_cost.py &middot; command    : python scripts/run_05_staffing_cost.py --reps 100 --workers 14 &middot; timestamp  : 2026-08-28 21:50:25 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "alpha": 120.0, "beta": 0.5, "gamma": 50.0, "screen_reps": 8, "refine_reps": 25, "n_refine": 6, "lo": 2, "hi": 8}</sub>
+<sub>produced by: scripts/run_05_staffing_cost.py &middot; command    : python scripts/run_05_staffing_cost.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-09-24 10:42:42 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "alpha": 120.0, "beta": 0.5, "gamma": 50.0, "screen_reps": 8, "refine_reps": 25, "n_refine": 6, "lo": 2, "hi": 8}</sub>

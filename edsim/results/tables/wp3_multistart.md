@@ -7,4 +7,4 @@
 | (20, 70) | (20.551, 9.136) | 46.5885 | 25 | 2,500 | yes |
 | (28, 110) | (25.963, 8.490) | 46.6215 | 24 | 2,550 | yes |
 
-<sub>produced by: scripts/run_04_nelder_mead.py &middot; command    : python scripts/run_04_nelder_mead.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-08-28 21:33:45 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "opt_reps": 50, "penalty_mu": 500.0, "max_iter": 80, "xtol": 0.05, "ftol": 0.02, "no_scipy": false}</sub>
+<sub>produced by: scripts/run_04_nelder_mead.py &middot; command    : python scripts/run_04_nelder_mead.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-09-24 10:38:51 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "opt_reps": 50, "penalty_mu": 500.0, "max_iter": 80, "xtol": 0.05, "ftol": 0.02, "no_scipy": false}</sub>

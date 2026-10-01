@@ -16,8 +16,8 @@
   "k2_max": 60.0,
   "penalty_mu": 500.0
  },
- "timestamp": "2026-08-28 21:30:55",
- "elapsed_seconds": 578.51,
+ "timestamp": "2026-09-24 10:35:58",
+ "elapsed_seconds": 672.29,
  "environment": {
   "python": "3.11.4",
   "platform": "Windows-10-10.0.26200-SP0",

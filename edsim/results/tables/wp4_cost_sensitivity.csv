@@ -1,6 +1,6 @@
 # produced by: scripts/run_05_staffing_cost.py
-# command    : python scripts/run_05_staffing_cost.py --reps 100 --workers 14
-# timestamp  : 2026-08-28 21:50:59
+# command    : python scripts/run_05_staffing_cost.py --reps 100 --seed 20250402 --workers 14
+# timestamp  : 2026-09-24 10:43:07
 # args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "alpha": 120.0, "beta": 0.5, "gamma": 50.0, "screen_reps": 8, "refine_reps": 25, "n_refine": 6, "lo": 2, "hi": 8}
 # caption    : Sensitivity of the staffing recommendation to the economic weights
 "cost_scenario","alpha","beta","gamma","winning_roster","winning_cost","cost_of_paper_roster","saving_vs_paper"

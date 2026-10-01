@@ -8,4 +8,4 @@
 | WSEPT | 42.319 | 10.635 | 40.882 | 9.585 | +1.437 | 1.35 |
 | GCMU | 44.049 | 11.303 | 41.937 | 10.887 | +2.112 | 1.87 |
 
-<sub>produced by: scripts/run_06_crn_variance.py &middot; command    : python scripts/run_06_crn_variance.py --reps 100 --workers 14 &middot; timestamp  : 2026-08-28 21:47:27 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "target_halfwidth": 0.5}</sub>
+<sub>produced by: scripts/run_06_crn_variance.py &middot; command    : python scripts/run_06_crn_variance.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-09-24 10:43:29 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "target_halfwidth": 0.5}</sub>

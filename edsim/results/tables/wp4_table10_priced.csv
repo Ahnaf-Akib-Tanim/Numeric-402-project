@@ -1,6 +1,6 @@
 # produced by: scripts/run_05_staffing_cost.py
-# command    : python scripts/run_05_staffing_cost.py --reps 100 --workers 14
-# timestamp  : 2026-08-28 21:50:38
+# command    : python scripts/run_05_staffing_cost.py --reps 100 --seed 20250402 --workers 14
+# timestamp  : 2026-09-24 10:42:57
 # args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "alpha": 120.0, "beta": 0.5, "gamma": 50.0, "screen_reps": 8, "refine_reps": 25, "n_refine": 6, "lo": 2, "hi": 8}
 # caption    : The base paper's seven staffing scenarios evaluated under our cost model
 "scenario","roster","physician_hours","mean_wait_min","utilisation_pct","SL4_pct","staff_cost","wait_cost","total_cost"

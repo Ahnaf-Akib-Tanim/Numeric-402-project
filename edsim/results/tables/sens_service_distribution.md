@@ -8,4 +8,4 @@
 | WSEPT | 42.32 | 64.46 | +22.14 | +52.3% | 86.87 | 75.69 |
 | GCMU | 44.05 | 66.42 | +22.37 | +50.8% | 90.99 | 82.48 |
 
-<sub>produced by: scripts/run_07_sensitivity.py &middot; command    : python scripts/run_07_sensitivity.py --reps 100 --workers 14 &middot; timestamp  : 2026-08-29 20:57:18 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "arrival_span": 15.0, "arrival_step": 3.0, "skip_arrival": false, "skip_staffing": false, "skip_distribution": false}</sub>
+<sub>produced by: scripts/run_07_sensitivity.py &middot; command    : python scripts/run_07_sensitivity.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-09-24 10:46:00 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "arrival_span": 15.0, "arrival_step": 3.0, "skip_arrival": false, "skip_staffing": false, "skip_distribution": false}</sub>

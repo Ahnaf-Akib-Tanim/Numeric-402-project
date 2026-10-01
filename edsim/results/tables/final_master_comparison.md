@@ -9,4 +9,4 @@
 | WSEPT | ours, WP2 c-mu rule | 42.32 | 10.63 | [40.21, 44.43] | 3.76 | 55.30 | 0.3763 | 100.00 | 86.87 | 86.34 | NO |
 | GCMU | ours, WP2 generalised c-mu | 44.05 | 11.30 | [41.81, 46.29] | 14.59 | 53.94 | 0.4588 | 100.00 | 90.99 | 86.35 | NO |
 
-<sub>produced by: scripts/run_08_final_comparison.py &middot; command    : python scripts/run_08_final_comparison.py --reps 100 --workers 14 &middot; timestamp  : 2026-08-28 21:46:21 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}</sub>
+<sub>produced by: scripts/run_08_final_comparison.py &middot; command    : python scripts/run_08_final_comparison.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-09-24 10:46:21 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}</sub>

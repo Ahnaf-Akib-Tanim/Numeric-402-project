@@ -1,6 +1,6 @@
 # produced by: scripts/run_01_validate_paper.py
 # command    : python scripts/run_01_validate_paper.py --reps 100 --seed 20250402 --workers 14
-# timestamp  : 2026-08-28 21:21:14
+# timestamp  : 2026-09-24 10:24:42
 # args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}
 # caption    : Paired t-tests with Bonferroni correction and Cohen's d, alongside the paper's Table 5 / Table 6 values
 "comparison","mean_diff_min","t_stat","p_value","significant_after_bonferroni","cohens_d","interpretation","paper_mean_diff_min","paper_cohens_d"

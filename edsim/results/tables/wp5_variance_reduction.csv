@@ -1,6 +1,6 @@
 # produced by: scripts/run_06_crn_variance.py
-# command    : python scripts/run_06_crn_variance.py --reps 100 --workers 14
-# timestamp  : 2026-08-28 21:47:27
+# command    : python scripts/run_06_crn_variance.py --reps 100 --seed 20250402 --workers 14
+# timestamp  : 2026-09-24 10:43:29
 # args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "target_halfwidth": 0.5}
 # caption    : The core WP5 result: variance of every pairwise difference with and without Common Random Numbers
 "comparison","mean_diff_independent","mean_diff_crn","variance_independent","variance_crn","variance_removed_pct","efficiency_gain","ci_halfwidth_independent","ci_halfwidth_crn","crn_reps_matching_the_independent_arm"

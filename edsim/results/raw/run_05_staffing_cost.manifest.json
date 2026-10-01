@@ -1,7 +1,7 @@
 {
  "script": "run_05_staffing_cost",
  "description": "WP4: an explicit weekly cost model for the emergency department, used to search integer physician rosters with the Slack-Based thresholds re-optimised inside each candidate.",
- "command": "python scripts/run_05_staffing_cost.py --reps 100 --workers 14",
+ "command": "python scripts/run_05_staffing_cost.py --reps 100 --seed 20250402 --workers 14",
  "args": {
   "reps": 100,
   "seed": 20250402,
@@ -17,8 +17,8 @@
   "lo": 2,
   "hi": 8
  },
- "timestamp": "2026-08-28 21:51:03",
- "elapsed_seconds": 181.16,
+ "timestamp": "2026-09-24 10:43:09",
+ "elapsed_seconds": 218.34,
  "environment": {
   "python": "3.11.4",
   "platform": "Windows-10-10.0.26200-SP0",

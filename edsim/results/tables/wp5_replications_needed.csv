@@ -1,6 +1,6 @@
 # produced by: scripts/run_06_crn_variance.py
-# command    : python scripts/run_06_crn_variance.py --reps 100 --workers 14
-# timestamp  : 2026-08-28 21:47:27
+# command    : python scripts/run_06_crn_variance.py --reps 100 --seed 20250402 --workers 14
+# timestamp  : 2026-09-24 10:43:29
 # args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "target_halfwidth": 0.5}
 # caption    : Replications required to pin each pairwise difference to +/-0.5 minutes at 95% confidence
 "comparison","sd_diff_independent","sd_diff_crn","reps_needed_independent","reps_needed_crn","saving_factor"

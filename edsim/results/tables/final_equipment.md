@@ -7,4 +7,4 @@
 | CT | 748 | 18.18 | 17.64 | 0.287 |
 | ULTRASOUND | 297 | 19.41 | 19.03 | 0.977 |
 
-<sub>produced by: scripts/run_08_final_comparison.py &middot; command    : python scripts/run_08_final_comparison.py --reps 100 --workers 14 &middot; timestamp  : 2026-08-28 21:46:21 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}</sub>
+<sub>produced by: scripts/run_08_final_comparison.py &middot; command    : python scripts/run_08_final_comparison.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-09-24 10:46:21 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}</sub>

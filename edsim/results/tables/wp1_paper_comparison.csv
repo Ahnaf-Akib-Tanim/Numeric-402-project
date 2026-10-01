@@ -1,6 +1,6 @@
 # produced by: scripts/run_01_validate_paper.py
 # command    : python scripts/run_01_validate_paper.py --reps 100 --seed 20250402 --workers 14
-# timestamp  : 2026-08-28 21:21:14
+# timestamp  : 2026-09-24 10:24:42
 # args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}
 # caption    : WP1 validation: every KPI of the rebuilt simulator against the corresponding published value in the base paper
 "policy","metric","ours_mean","ours_sd","paper_value","deviation"

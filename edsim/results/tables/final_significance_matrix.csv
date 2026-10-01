@@ -1,6 +1,6 @@
 # produced by: scripts/run_08_final_comparison.py
-# command    : python scripts/run_08_final_comparison.py --reps 100 --workers 14
-# timestamp  : 2026-08-28 21:46:21
+# command    : python scripts/run_08_final_comparison.py --reps 100 --seed 20250402 --workers 14
+# timestamp  : 2026-09-24 10:46:21
 # args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}
 # caption    : Every pairwise paired t-test on the mean waiting time, Bonferroni-corrected across the whole family
 "comparison","mean_diff_min","ci95_of_diff","t_stat","p_value","significant_bonferroni","cohens_d","interpretation"

@@ -1,6 +1,6 @@
 # produced by: scripts/run_06_crn_variance.py
-# command    : python scripts/run_06_crn_variance.py --reps 100 --workers 14
-# timestamp  : 2026-08-28 21:47:27
+# command    : python scripts/run_06_crn_variance.py --reps 100 --seed 20250402 --workers 14
+# timestamp  : 2026-09-24 10:43:29
 # args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "target_halfwidth": 0.5}
 # caption    : CRN leaves the marginal distribution of each policy's estimator unchanged; only the joint distribution changes
 "policy","mean_crn_min","sd_crn_min","mean_indep_min","sd_indep_min","difference_min","abs_diff_over_se"

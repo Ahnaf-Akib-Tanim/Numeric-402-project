@@ -1,7 +1,7 @@
 {
  "script": "run_06_crn_variance",
  "description": "WP5: side-by-side experiment with Common Random Numbers and with independent streams, quantifying the variance reduction, the equivalent replication saving, and the sharpened confidence intervals.",
- "command": "python scripts/run_06_crn_variance.py --reps 100 --workers 14",
+ "command": "python scripts/run_06_crn_variance.py --reps 100 --seed 20250402 --workers 14",
  "args": {
   "reps": 100,
   "seed": 20250402,
@@ -10,8 +10,8 @@
   "no_figures": false,
   "target_halfwidth": 0.5
  },
- "timestamp": "2026-08-28 21:47:29",
- "elapsed_seconds": 17.28,
+ "timestamp": "2026-09-24 10:43:32",
+ "elapsed_seconds": 18.98,
  "environment": {
   "python": "3.11.4",
   "platform": "Windows-10-10.0.26200-SP0",

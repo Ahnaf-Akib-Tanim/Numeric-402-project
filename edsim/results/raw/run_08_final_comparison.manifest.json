@@ -1,7 +1,7 @@
 {
  "script": "run_08_final_comparison",
  "description": "Consolidated comparison of the base paper's three scheduling heuristics against our re-tuned Slack-Based Policy and our two c-mu policies, in the paper's own KPI vocabulary, under Common Random Numbers.",
- "command": "python scripts/run_08_final_comparison.py --reps 100 --workers 14",
+ "command": "python scripts/run_08_final_comparison.py --reps 100 --seed 20250402 --workers 14",
  "args": {
   "reps": 100,
   "seed": 20250402,
@@ -9,8 +9,8 @@
   "quick": false,
   "no_figures": false
  },
- "timestamp": "2026-08-28 21:46:23",
- "elapsed_seconds": 13.01,
+ "timestamp": "2026-09-24 10:46:24",
+ "elapsed_seconds": 13.62,
  "environment": {
   "python": "3.11.4",
   "platform": "Windows-10-10.0.26200-SP0",

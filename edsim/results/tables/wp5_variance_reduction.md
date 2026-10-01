@@ -13,4 +13,4 @@
 | SBP vs GCMU | +1.536 | +0.032 | 268.9685 | 1.0273 | 99.62% | 261.8x | 3.2542 | 0.2011 | 0.4 |
 | WSEPT vs GCMU | -1.055 | -1.730 | 215.2730 | 0.5935 | 99.72% | 362.7x | 2.9113 | 0.1529 | 0.3 |
 
-<sub>produced by: scripts/run_06_crn_variance.py &middot; command    : python scripts/run_06_crn_variance.py --reps 100 --workers 14 &middot; timestamp  : 2026-08-28 21:47:27 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "target_halfwidth": 0.5}</sub>
+<sub>produced by: scripts/run_06_crn_variance.py &middot; command    : python scripts/run_06_crn_variance.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-09-24 10:43:29 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "target_halfwidth": 0.5}</sub>

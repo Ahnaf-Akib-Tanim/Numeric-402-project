@@ -8,4 +8,4 @@
 | 4 | (4, 10) | 47.62 | 97.20 | 95.69 | 0.00 | 47.62 |
 | 5 | (6, 9) | 47.64 | 98.86 | 95.33 | 0.00 | 47.64 |
 
-<sub>produced by: scripts/run_02_grid_search.py &middot; command    : python scripts/run_02_grid_search.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-08-28 21:26:40 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "coarse_reps": 15, "fine_reps": 50, "coarse_step": 1.0, "fine_step": 0.1, "k1_max": 30.0, "k2_max": 60.0, "penalty_mu": 500.0}</sub>
+<sub>produced by: scripts/run_02_grid_search.py &middot; command    : python scripts/run_02_grid_search.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-09-24 10:31:05 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false, "coarse_reps": 15, "fine_reps": 50, "coarse_step": 1.0, "fine_step": 0.1, "k1_max": 30.0, "k2_max": 60.0, "penalty_mu": 500.0}</sub>

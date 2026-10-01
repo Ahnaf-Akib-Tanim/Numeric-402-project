@@ -35,6 +35,9 @@ log recording the exact command behind every file.
 
 | Document | Answers |
 |---|---|
+| **[`edsim/docs/report/C_02.pdf`](edsim/docs/report/C_02.pdf)** | **The final report** (9 pages, ACM format). Full LaTeX source in `edsim/docs/report/`. |
+| **[`edsim/docs/slides/C_02_slides.pdf`](edsim/docs/slides/C_02_slides.pdf)** | **The presentation** (14 slides, beamer 16:9). |
+| [`edsim/docs/PROJECT_GUIDE.pdf`](edsim/docs/PROJECT_GUIDE.pdf) | **Start here.** A 31-page illustrated guide to the whole project: what the paper does, what we built, how every method works, which file does what, how to run it, the full results analysis, a paper-vs-ours comparison, and viva preparation. |
 | [`edsim/README.md`](edsim/README.md) | What each Python file does, how to run everything, how the results are produced, what we had to decide ourselves, and how faithful the replication is. |
 | [`edsim/docs/PAPER_MAPPING.md`](edsim/docs/PAPER_MAPPING.md) | Every equation, table and figure of the paper → the line of code that implements it; the ambiguities in the paper and how we resolved them. |
 | [`edsim/docs/METHODS.md`](edsim/docs/METHODS.md) | The numerical methods written out in full: thinning, inverse-CDF sampling, the event loop, sample-average approximation, the penalty function, Nelder-Mead, common random numbers, the c·μ rule. |

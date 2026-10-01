@@ -18,4 +18,4 @@
 | SBP* vs GCMU | +0.131 | [-0.182, +0.445] | 1.260 | 0.21079 | No | +0.126 | Negligible |
 | WSEPT vs GCMU | -1.730 | [-1.962, -1.498] | -22.458 | 1.218e-40 | Yes | -2.246 | Very large effect |
 
-<sub>produced by: scripts/run_08_final_comparison.py &middot; command    : python scripts/run_08_final_comparison.py --reps 100 --workers 14 &middot; timestamp  : 2026-08-28 21:46:21 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}</sub>
+<sub>produced by: scripts/run_08_final_comparison.py &middot; command    : python scripts/run_08_final_comparison.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-09-24 10:46:21 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}</sub>

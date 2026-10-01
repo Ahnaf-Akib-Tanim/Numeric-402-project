@@ -15,4 +15,4 @@
 | WSEPT | 120 | 54.92 | 53.90 | 55.26 | 86.80 | 0.7938 | 100.00 |
 | GCMU | 120 | 49.65 | 31.29 | 55.77 | 45.99 | 0.6095 | 97.15 |
 
-<sub>produced by: scripts/run_03_wsept_policy.py &middot; command    : python scripts/run_03_wsept_policy.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-08-28 21:31:12 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}</sub>
+<sub>produced by: scripts/run_03_wsept_policy.py &middot; command    : python scripts/run_03_wsept_policy.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-09-24 10:36:15 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}</sub>

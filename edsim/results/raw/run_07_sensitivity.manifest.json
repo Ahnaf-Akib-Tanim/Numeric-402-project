@@ -1,7 +1,7 @@
 {
  "script": "run_07_sensitivity",
  "description": "Reproduction of the base paper's sensitivity analysis (arrival rate, physician staffing, service-time distribution), extended to include the two c-mu policies contributed by this project.",
- "command": "python scripts/run_07_sensitivity.py --reps 100 --workers 14",
+ "command": "python scripts/run_07_sensitivity.py --reps 100 --seed 20250402 --workers 14",
  "args": {
   "reps": 100,
   "seed": 20250402,
@@ -14,8 +14,8 @@
   "skip_staffing": false,
   "skip_distribution": false
  },
- "timestamp": "2026-08-29 20:57:19",
- "elapsed_seconds": 127.89,
+ "timestamp": "2026-09-24 10:46:00",
+ "elapsed_seconds": 145.0,
  "environment": {
   "python": "3.11.4",
   "platform": "Windows-10-10.0.26200-SP0",

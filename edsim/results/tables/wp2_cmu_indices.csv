@@ -1,6 +1,6 @@
 # produced by: scripts/run_03_wsept_policy.py
 # command    : python scripts/run_03_wsept_policy.py --reps 100 --seed 20250402 --workers 14
-# timestamp  : 2026-08-28 21:30:58
+# timestamp  : 2026-09-24 10:36:02
 # args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}
 # caption    : Index values used by the c-mu and generalised c-mu rules
 "class","T_l_min","E_service_min","mu_l_per_min","c_l","index_c_mu","gcmu_coefficient"

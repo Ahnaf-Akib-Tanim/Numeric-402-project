@@ -6,4 +6,4 @@
 | Level IV initial | 120 | 9.093 | 0.10998 | 0.008333 | 0.000916 | 1.527e-05 |
 | Follow-up | 60 | 12.841 | 0.07788 | 0.016667 | 0.001298 | 4.326e-05 |
 
-<sub>produced by: scripts/run_03_wsept_policy.py &middot; command    : python scripts/run_03_wsept_policy.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-08-28 21:30:58 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}</sub>
+<sub>produced by: scripts/run_03_wsept_policy.py &middot; command    : python scripts/run_03_wsept_policy.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-09-24 10:36:02 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}</sub>

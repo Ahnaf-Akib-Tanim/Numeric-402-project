@@ -20,7 +20,7 @@ Generating the exogenous patient stream
   needing diagnostics                    58.5 %
   mean initial consult                   9.10 min
   mean follow-up consult                 12.90 min
-  generation time                        0.027 s
+  generation time                        0.211 s
 
 
 1. Event trace -- policy SBP, first 3 simulated hours
@@ -110,10 +110,10 @@ Generating the exogenous patient stream
   policy  W_total   W_L3   W_L4  init L3  init L4  follow  SL3 %  SL4 %  util %  done  unfin   sec
   ------  -------  -----  -----  -------  -------  ------  -----  -----  ------  ----  -----  ----
   IFP       60.55  59.87  60.78     1.85     4.24   98.14  100.0  100.0    88.8  2290     27  0.06
-  ALT       49.73   6.86  64.30     3.30    61.21    5.47  100.0   82.9    88.8  2295     22  0.07
-  SBP       53.14  16.58  65.58     5.65    51.27   23.02  100.0   86.2    88.8  2297     20  0.06
-  WSEPT     50.13   4.04  65.80     1.75    63.47    3.96  100.0   83.0    88.8  2297     20  0.07
-  GCMU      51.47  16.48  63.36     4.53    51.49   20.37  100.0   87.7    88.8  2296     21  0.06
+  ALT       49.73   6.86  64.30     3.30    61.21    5.47  100.0   82.9    88.8  2295     22  0.06
+  SBP       53.14  16.58  65.58     5.65    51.27   23.02  100.0   86.2    88.8  2297     20  0.08
+  WSEPT     50.13   4.04  65.80     1.75    63.47    3.96  100.0   83.0    88.8  2297     20  0.05
+  GCMU      51.47  16.48  63.36     4.53    51.49   20.37  100.0   87.7    88.8  2296     21  0.08
 
   W_total / W_L3 / W_L4 are per-PATIENT totals (initial + follow-up wait); 'init' and 'follow' columns break that down per consultation.
 

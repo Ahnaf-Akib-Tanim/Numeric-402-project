@@ -7,4 +7,4 @@
 | LABORATORY | 1242 | 1228 | 1.19 | 1.19 | 1478.56 | 10080 | 14.67 | 14.36 | 0.069 |
 | ULTRASOUND | 296 | 266 | 6.58 | 6.58 | 1947.75 | 10080 | 19.32 | 19.03 | 0.864 |
 
-<sub>produced by: scripts/run_01_validate_paper.py &middot; command    : python scripts/run_01_validate_paper.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-08-28 21:21:14 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}</sub>
+<sub>produced by: scripts/run_01_validate_paper.py &middot; command    : python scripts/run_01_validate_paper.py --reps 100 --seed 20250402 --workers 14 &middot; timestamp  : 2026-09-24 10:24:42 &middot; args       : {"reps": 100, "seed": 20250402, "workers": 14, "quick": false, "no_figures": false}</sub>
