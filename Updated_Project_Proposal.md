@@ -35,7 +35,7 @@ This is where our project adds genuine, gradable novelty rather than re-running 
 
 ## 3. Our Contribution — Five Work Packages (one per team member)
 
-### WP1 — Baseline DES Engine & Replication (Sudip)
+### WP1 — Baseline DES Engine & Replication (Ahnaf)
 Rebuild the simulator from scratch in Python, following the paper's five-module architecture
 (Entity Definition, Event Scheduling, Resource Scheduling, Strategy Execution, Statistical
 Output — Fig. 2 of the paper):
@@ -46,7 +46,7 @@ Output — Fig. 2 of the paper):
   within statistical tolerance. This validation is itself a concrete, checkable deliverable and
   the foundation every other work package builds on.
 
-### WP2 — Theoretically-Grounded Scheduling Rule (Ahnaf)
+### WP2 — Theoretically-Grounded Scheduling Rule (Shoaib)
 Add a **fourth** scheduling policy grounded in classical queueing theory instead of a heuristic:
 implement the **cμ-rule / Weighted Shortest Expected Processing Time (WSEPT)** — at each decision
 epoch, serve the waiting class maximizing `c_l · μ_l`, where `μ_l = 1/E[service time]` and `c_l`
@@ -63,7 +63,7 @@ method, since Nelder-Mead is unconstrained. Benchmark the *number of simulation 
 needed to converge* against the paper's grid search (which needed hundreds of full 100-replication
 runs) — a concrete efficiency number for the report, not just an assertion.
 
-### WP4 — Cost-Based Staffing Optimization (Dulal)
+### WP4 — Cost-Based Staffing Optimization (Sudip)
 Directly answers the "right staffing level" question the base paper only touches via sensitivity
 analysis. Define an economic objective `C(R, k1, k2) = α·(physician-hours) + β·(total patient
 wait-minutes) + γ·(SLA violation penalty)`, with α, β, γ set from reasonable healthcare cost
@@ -73,7 +73,7 @@ physicians/shift), reuse WP3's optimizer to find the best (k1, k2), then compare
 across staffing levels. Deliverable: a staffing recommendation showing the cost-minimizing
 physician count per shift vs. the paper's fixed 5/5/3.
 
-### WP5 — Statistical Rigor & Final Comparison (Shoaib)
+### WP5 — Statistical Rigor & Final Comparison (Dulal)
 Implement **Common Random Numbers (CRN)**: reuse identical arrival-time and service-time random
 streams across all four policies within each replication, then re-run the paper's paired t-test /
 Cohen's d analysis and show the narrower confidence intervals / fewer replications needed to

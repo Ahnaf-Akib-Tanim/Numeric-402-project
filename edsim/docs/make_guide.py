@@ -452,11 +452,11 @@ def build_story():
                         S["subtitle"]))
     st.append(Spacer(1, 10))
     st.append(table([
-        ["Sudip Kumar Saha", "2105152", "WP1 \u2014 baseline DES engine & validation"],
-        ["Ahnaf Akib Tanim", "2105154", "WP2 \u2014 c\u00b7\u03bc / WSEPT scheduling rule"],
+        ["Sudip Kumar Saha", "2105152", "WP4 \u2014 cost-based staffing"],
+        ["Ahnaf Akib Tanim", "2105154", "WP1 \u2014 baseline DES engine & validation"],
         ["Md. Shahjalal Rumman", "2105165", "WP3 \u2014 Nelder-Mead optimiser"],
-        ["Md. Dulal Hossain", "2105169", "WP4 \u2014 cost-based staffing"],
-        ["Md. Shoaib Hossain", "2105170", "WP5 \u2014 common random numbers & final analysis"],
+        ["Md. Dulal Hossain", "2105169", "WP5 \u2014 common random numbers & final analysis"],
+        ["Md. Shoaib Hossain", "2105170", "WP2 \u2014 c\u00b7\u03bc / WSEPT scheduling rule"],
     ], [5.0 * cm, 2.2 * cm, full - 7.2 * cm], header=False, font_size=8.8))
     st.append(Spacer(1, 16))
 
@@ -754,20 +754,20 @@ def build_story():
     st.append(Spacer(1, 4))
     st.append(table([
         ["Work package", "Owner", "What it adds", "Script that produces it"],
-        ["<b>WP1</b> Baseline engine &amp; validation", "Sudip",
+        ["<b>WP1</b> Baseline engine &amp; validation", "Ahnaf",
          "The whole simulator, plus a check against every published KPI, t-test "
          "and equipment number.", "run_01_validate_paper.py"],
-        ["<b>WP2</b> c\u00b7\u03bc / WSEPT rule", "Ahnaf",
+        ["<b>WP2</b> c\u00b7\u03bc / WSEPT rule", "Shoaib",
          "Two new policies derived from queueing theory rather than invented, and "
          "a holding-cost metric to judge them fairly.", "run_03_wsept_policy.py"],
         ["<b>WP3</b> Nelder-Mead optimiser", "Rumman",
          "A hand-written simplex method with a penalty function, benchmarked "
          "against the paper's grid search on equal terms.",
          "run_02_grid_search.py<br/>run_04_nelder_mead.py"],
-        ["<b>WP4</b> Cost-optimal staffing", "Dulal",
+        ["<b>WP4</b> Cost-optimal staffing", "Sudip",
          "A weekly cost function and a search over integer rosters with the "
          "thresholds re-tuned inside each one.", "run_05_staffing_cost.py"],
-        ["<b>WP5</b> CRN &amp; final analysis", "Shoaib",
+        ["<b>WP5</b> CRN &amp; final analysis", "Dulal",
          "Exact common random numbers, the variance reduction quantified, and the "
          "consolidated comparison.",
          "run_06_crn_variance.py<br/>run_08_final_comparison.py"],

@@ -49,8 +49,8 @@ log recording the exact command behind every file.
 
 | WP | Owner | Contribution | Script |
 |---|---|---|---|
-| **WP1** | Sudip | Rebuild the paper's DES from scratch and validate it against every published KPI | `run_01_validate_paper.py` |
-| **WP2** | Ahnaf | Add the c·μ / WSEPT rule and the generalised c·μ rule — provably optimal queueing policies rather than heuristics | `run_03_wsept_policy.py` |
+| **WP1** | Ahnaf | Rebuild the paper's DES from scratch and validate it against every published KPI | `run_01_validate_paper.py` |
+| **WP2** | Shoaib | Add the c·μ / WSEPT rule and the generalised c·μ rule — provably optimal queueing policies rather than heuristics | `run_03_wsept_policy.py` |
 | **WP3** | Rumman | Replace brute-force grid search with a hand-implemented Nelder-Mead simplex plus a penalty function, and benchmark the simulation budget | `run_02_grid_search.py`, `run_04_nelder_mead.py` |
-| **WP4** | Dulal | An explicit weekly cost model, and a joint search over integer physician rosters with the thresholds re-tuned inside each | `run_05_staffing_cost.py` |
-| **WP5** | Shoaib | Exact common random numbers, the variance reduction quantified, and the consolidated final comparison | `run_06_crn_variance.py`, `run_08_final_comparison.py` |
+| **WP4** | Sudip | An explicit weekly cost model, and a joint search over integer physician rosters with the thresholds re-tuned inside each | `run_05_staffing_cost.py` |
+| **WP5** | Dulal | Exact common random numbers, the variance reduction quantified, and the consolidated final comparison | `run_06_crn_variance.py`, `run_08_final_comparison.py` |
